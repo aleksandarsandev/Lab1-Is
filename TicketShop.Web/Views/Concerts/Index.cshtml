@@ -1,0 +1,39 @@
+﻿@model IEnumerable<TicketShop.Domain.DomainModels.Concert>
+
+@{
+    ViewData["Title"] = "Concerts";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a class="btn btn-success" asp-controller="Concerts" asp-action="Create">Add New Concert</a>
+    <a class="btn btn-success" asp-controller="Tickets" asp-action="Create">Buy A Ticket</a>
+</p>
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-4 shadow">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.ConcertName)</h5>
+                    <p class="card-text">
+                        <strong>Date:</strong> @Html.DisplayFor(modelItem => item.ConcertDate)<br />
+                        <strong>Price:</strong> @Html.DisplayFor(modelItem => item.ConcertPrice)<br />
+                        <strong>Place:</strong> @Html.DisplayFor(modelItem => item.ConcertPlace)
+                    </p>
+                    <div class="text-center">
+                        @* <div class="btn-group"> *@
+                            <div class="card-footer">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                        @* </div> *@
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

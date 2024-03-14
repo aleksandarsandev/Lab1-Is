@@ -1,0 +1,17 @@
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.AssemblyInfoInputs.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.AssemblyInfo.cs
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.csproj.CoreCompileInputs.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Repository.deps.json
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Repository.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Repository.pdb
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Domain.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Domain.pdb
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.csproj.AssemblyReference.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketSh.6CE8F4A2.Up2Date
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\refint\TicketShop.Repository.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.pdb
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\ref\TicketShop.Repository.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\bin\Debug\net8.0\TicketShop.Repository.runtimeconfig.json
+C:\Aleksandar\Fakultet\is\TicketShop.Repository\obj\Debug\net8.0\TicketShop.Repository.genruntimeconfig.cache

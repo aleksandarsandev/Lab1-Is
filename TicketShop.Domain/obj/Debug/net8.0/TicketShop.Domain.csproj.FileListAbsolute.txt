@@ -1,0 +1,14 @@
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.AssemblyInfoInputs.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.AssemblyInfo.cs
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.csproj.CoreCompileInputs.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\bin\Debug\net8.0\TicketShop.Domain.deps.json
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\bin\Debug\net8.0\TicketShop.Domain.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\bin\Debug\net8.0\TicketShop.Domain.pdb
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.csproj.AssemblyReference.cache
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\refint\TicketShop.Domain.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.pdb
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\ref\TicketShop.Domain.dll
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\bin\Debug\net8.0\TicketShop.Domain.runtimeconfig.json
+C:\Aleksandar\Fakultet\is\TicketShop.Domain\obj\Debug\net8.0\TicketShop.Domain.genruntimeconfig.cache

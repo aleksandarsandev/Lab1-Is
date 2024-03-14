@@ -1,0 +1,70 @@
+﻿@model IEnumerable<TicketShop.Domain.DomainModels.Ticket>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    double totalSum = 0;
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Buy A Ticket</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfPeople)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TicketUser)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Concert)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Concert)
+                Concert Price
+            </th>
+            <th>
+                Total Price
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumberOfPeople)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketUser.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Concert.ConcertName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Concert.ConcertPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalPrice)
+                </td>
+                <td>
+                    <div class="text-center">
+                        <div class="card-footer">
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    Total Sum: @ViewBag.TotalSum
+</div>
